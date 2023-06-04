@@ -1,0 +1,55 @@
+.header{
+    
+}
+.header__body{
+    
+}
+.header__item{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    
+}
+body{
+    background-image: url(./dog.jpeg);
+    background-size: cover;
+}
+.form{
+    border: 1px solid #000;
+    width: 350px;
+    margin: 0 auto;
+    height: 450px;
+    background-color: #fff;
+}
+.input{
+    position: relative;
+    top: 5px;
+    left: 85px;
+}
+.text__form{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.accept{
+    position: relative;
+    left: 95px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    top:30px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+.accept:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 0px;
+}
